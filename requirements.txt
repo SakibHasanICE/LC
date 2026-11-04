@@ -1,0 +1,30 @@
+# --- Config ---
+python-dotenv
+
+# --- Email ingestion (IMAP) ---
+imap-tools
+
+# --- PDF text/table extraction ---
+pdfplumber
+PyMuPDF
+
+# --- Password-protected PDF handling ---
+pikepdf
+
+# --- Date/amount parsing helpers ---
+python-dateutil
+
+# --- Database ---
+SQLAlchemy
+psycopg2-binary
+
+# # --- LLM fallback extraction ---
+# anthropic
+
+# --- Backend API ---
+fastapi
+uvicorn
+pydantic
+
+# --- Logging/testing ---
+pytest
